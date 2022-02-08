@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/orkes-test/static/css/main.9a67843e.css",
+    "main.js": "/orkes-test/static/js/main.a823ce51.js",
+    "static/js/787.f862d622.chunk.js": "/orkes-test/static/js/787.f862d622.chunk.js",
+    "index.html": "/orkes-test/index.html",
+    "main.9a67843e.css.map": "/orkes-test/static/css/main.9a67843e.css.map",
+    "main.a823ce51.js.map": "/orkes-test/static/js/main.a823ce51.js.map",
+    "787.f862d622.chunk.js.map": "/orkes-test/static/js/787.f862d622.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a67843e.css",
+    "static/js/main.a823ce51.js"
+  ]
+}
