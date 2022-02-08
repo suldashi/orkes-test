@@ -49,3 +49,7 @@
 .column-item > img {
   margin-right: 20px;
 }
+
+.end-message {
+  text-align: center;
+}
