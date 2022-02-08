@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.center-column {
+  width: 700px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.column-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.column-item > img {
+  margin-right: 20px;
 }
