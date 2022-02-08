@@ -12,13 +12,15 @@ function App() {
   const [hasMore, setHasMore] = useState(true);
 
   const fetchData = async () => {
-    let url = "http://www.pinkvilla.com/photo-gallery-feed-page";
+    let url = "https://www.pinkvilla.com/photo-gallery-feed-page";
     if(pageNr > 0) {
       url = url + "/page/" + pageNr;
     }
+
     if(pageNr === pageLimit) {
       setHasMore(false);
     }
+    
     let data = await fetch(url);
     let parsedData = await data.json();
     setItems([...items, ...parsedData.nodes]);
