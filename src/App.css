@@ -38,12 +38,18 @@
 .center-column {
   width: 700px;
   height: 100%;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 .column-item {
   display: flex;
   margin-bottom: 20px;
+  border: 1px solid lightgrey;
+}
+
+.column-item h1 {
+  margin: 0;
+  font-size: 28px;
 }
 
 .column-item > img {
@@ -52,4 +58,32 @@
 
 .end-message {
   text-align: center;
+}
+
+header {
+  background-color: lightgrey;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+
+.header-item {
+  margin: 0 20px;
+  line-height: 40px;
+}
+
+.header-item-search {
+  margin-left: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-item-search input[type='text'] {
+  height: 30px;
+  width: 200px;
+  margin: 0;
+  padding-left: 10px;
 }
